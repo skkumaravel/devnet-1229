@@ -58,7 +58,7 @@ You should get the config of the entire box in yang format.
 1. Test basic connectivity
 
    1. `vagrant ssh devbox`
-   2. `ping 11.1.1.20`
+   2. `ping 11.1.1.10`
    3. `exit`
 
 2. Change the path to the interface YANG path.
@@ -108,7 +108,7 @@ You should get the config of the entire box in yang format.
 7. Test connectivity again.
 
    1. `vagrant ssh devbox`
-   2. `ping 11.1.1.20`
+   2. `ping 11.1.1.10`
    3. `exit`
 
 ### Conclusion
