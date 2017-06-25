@@ -24,7 +24,7 @@ Welcome to the lab, this guide will help you get startedprogramming network devi
 
 ## Create your first gRPC call. 
 
-1. Open up a new file called `example.py` in your favorite editor and add the following config.
+1. Open up a new file called `example.py` in your favorite editor and add the following code.
 
 ```python
 from iosxr_grpc.cisco_grpc_client import CiscoGRPCClient
@@ -80,7 +80,7 @@ You should get the config of the entire box in yang format.
        },
    ```
 
-5. Create `merge.py` and add the following config. This will allow you to open a file and merge the config in.
+5. Create `merge.py` and add the following code. This will allow you to open a file and merge the config in.
 
    ```python
    from iosxr_grpc.cisco_grpc_client import CiscoGRPCClient
@@ -101,7 +101,7 @@ You should get the config of the entire box in yang format.
        main2()
    ```
 
-6. Merge the config.
+6. Run the program to merge the config.
 
    `python merge.py`
 
