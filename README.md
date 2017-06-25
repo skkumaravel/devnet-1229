@@ -61,7 +61,7 @@ You should get the config of the entire box in yang format.
    2. `ping 11.1.1.10`
    3. `exit`
 
-2. Change the path to the interface YANG path.
+2. Change the path to the interface YANG path in `example.py`.
 
    `path = '{"openconfig-interfaces:interfaces": {}}'`
 
@@ -69,7 +69,7 @@ You should get the config of the entire box in yang format.
 
    `python example.py > interface.json`
 
-4. Lets turn off a interface. Edit interface.json and change gig 0/0/0/0 enabled to false.
+4. Lets turn off a interface. Edit `interface.json` and change gig 0/0/0/0 enabled to false.
 
    ```json
        "name": "GigabitEthernet0/0/0/0",
