@@ -1,10 +1,10 @@
 # Exploring Network Programmability with Python and YANG
 
- ### Intro
+## Intro
 
 Welcome to the lab, this guide will help you get startedprogramming network devices using YANG and Python over gRPC. Using YANG and Python, the network is easier to program and configuration is more predictable. 
 
-### Get the environment set up.
+## Get the environment set up.
 
 1. Download the Github 
 
@@ -22,7 +22,7 @@ Welcome to the lab, this guide will help you get startedprogramming network devi
 
    ```pip install iosxr_grpc``` 
 
-### Create your first gRPC call. 
+## Create your first gRPC call. 
 
 1. Open up a new file called `example.py` in your favorite editor and add the following config.
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
 You should get the config of the entire box in yang format.
 
-### Changing an interface
+## Changing an interface
 
 1. Test basic connectivity
 
@@ -111,7 +111,7 @@ You should get the config of the entire box in yang format.
    2. `ping 11.1.1.10`
    3. `exit`
 
-### Conclusion
+## Conclusion
 
 There are a lot more configuration options available in the library that can be used with automation. 
 
