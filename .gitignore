@@ -1,2 +1,6 @@
 Pipfile
 .DS_Store
+.vagrant
+example.py
+interface.json
+merge.py
