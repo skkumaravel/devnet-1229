@@ -31,7 +31,7 @@ Vagrant.configure(2) do |config|
 
  
     config.vm.define "devbox" do |node|
-      node.vm.box =  "ubuntu/trusty64"
+      node.vm.box =  "bento/ubuntu-16.04"
 
       # eth1 connected to link1
       # auto_config is supported for an ubuntu instance
