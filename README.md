@@ -14,11 +14,7 @@ Welcome to the lab, this guide will help you get startedprogramming network devi
 
    ```cd devnet-1229 && vagrant up```
 
-3. Set the virtual environment.
-
-   ```source /Users/labuser/workspace/venv3/bin/activate```
-
-4. Install python gRPC library
+3. Install python gRPC library
 
    ```pip install iosxr_grpc``` 
 
