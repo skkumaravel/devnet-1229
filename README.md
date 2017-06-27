@@ -2,7 +2,7 @@
 
 ## Intro
 
-Welcome to the lab, this guide will help you get startedprogramming network devices using YANG and Python over gRPC. Using YANG and Python, the network is easier to program and configuration is more predictable. 
+Welcome to the lab, this guide will help you get started programming network devices using YANG and Python over gRPC. Using YANG and Python, the network is easier to program and configuration is more predictable. 
 
 ## Get the environment set up.
 
